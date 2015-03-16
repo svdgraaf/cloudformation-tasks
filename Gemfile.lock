@@ -1,0 +1,39 @@
+PATH
+  remote: .
+  specs:
+    spaarspot-tasks (0.1.11)
+      aws-sdk (~> 1.51.0)
+      cloudformer (>= 0.0.12)
+      dotenv (>= 0.11.0)
+      rake (>= 10.3.0)
+      rubyzip (>= 1.1.7)
+      rugged (~> 0.21.0)
+
+PATH
+  remote: /Users/svdgraaf/Projects/unitt/cloudformer
+  specs:
+    cloudformer (0.0.12)
+      aws-sdk
+      rake
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-sdk (1.51.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+    dotenv (2.0.0)
+    json (1.8.2)
+    mini_portile (0.6.2)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    rake (10.4.2)
+    rubyzip (1.1.7)
+    rugged (0.21.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cloudformer!
+  spaarspot-tasks!
